@@ -39,3 +39,31 @@ let vegetales = ['Zanahoria', 'brócoli', 'pepino'];
 
 let ensalada = frutas.concat(vegetales);
 console.log(ensalada);
+
+//Caracteres de escape
+
+
+//Escape alternativo
+const caracteresEscapeAlternativo = "I'm Software Engineer";
+
+//Barra invertida
+const caracteresEscapeBarraInvertida = 'I\'m Software Engineer'
+
+//Template literals
+const caracteresEscapeTemplateLiterals = `I'm Software Engineer`;
+//Escritura de string largos
+
+const poema = 'Sol naciente asoma,\n' + 
+              'Tiñe el cielo de naranja,\n' +
+              'Despierta el nuevo día.';
+console.log(poema);
+
+const poema2 = 'Sol naciente asoma,\n\
+Tiñe el cielo de naranja,\n\
+Despierta el nuevo día.';
+console.log(poema2);
+
+const poema3 = `Sol naciente asoma,
+Tiñe el cielo de naranja,
+Despierta el nuevo día.`
+console.log(poema3);
